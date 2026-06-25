@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.eclipselayer.forgotten404.client.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ExampleClientMixin",
+    "GameRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

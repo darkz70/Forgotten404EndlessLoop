@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "forgotten-404-endless-loop",
+  "version": "${version}",
+  "name": "Forgotten 404: Endless Loop",
+  "description": "The world is not just a picture. AURORA_STACK stores the memory of every deleted world. You are Instance 404.",
+  "authors": [
+    "eclipselayer"
+  ],
+  "license": "CC0-1.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.eclipselayer.forgotten404.Forgotten404EndlessLoop"
+    ],
+    "client": [
+      "com.eclipselayer.forgotten404.client.Forgotten404EndlessLoopClient"
+    ]
+  },
+  "mixins": [
+    "forgotten-404-endless-loop.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "travelersbackpack": "*"
+  }
+}

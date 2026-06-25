@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "com.eclipselayer.forgotten404.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ExampleMixin",
+		"CommandSourceMixin",
+		"PlayerDeathMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
